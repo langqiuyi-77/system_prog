@@ -1,4 +1,4 @@
-```
+```bash
 // -e 的作用就是指定显示，这里就是指定显示open和close的调用
 // <0.000089> 就是 -T 的作用显示系统调用花费的时间
 lqy@lqy:~/projects/system_prog/00. 入门篇/08.strace$ strace -T -e open,close ./a.out 
